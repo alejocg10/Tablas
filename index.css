@@ -1,0 +1,143 @@
+/* ====== Estilos Generales ====== */
+body {
+    background: #f3f4f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== Header ====== */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #222;
+    color: white;
+    z-index: 1000;
+}
+
+.header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header a:hover {
+    color: #e74c3c;
+}
+
+/* ====== Hero ====== */
+.hero {
+    margin-top: 100px; /* espacio por header fijo */
+    background: #fff;
+}
+
+.hero-text h1 {
+    font-size: 38px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.hero-img {
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* ====== Botones ====== */
+.btn-red {
+    background: #e74c3c;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+    border: none;
+}
+
+.btn-red:hover {
+    background: #c0392b;
+}
+
+.btn-gray {
+    background: #34495e;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-gray:hover {
+    background: #2c3e50;
+}
+
+/* ====== Beneficios ====== */
+.benefits td {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.benefits h3 {
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+/* ====== Galería ====== */
+#gallery h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#gallery img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* ====== Formulario ====== */
+#form {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 50px auto;
+}
+
+#form h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#form input,
+#form select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+/* ====== Footer ====== */
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
